@@ -14,3 +14,5 @@ This is a lightweight, responsive static website built using:
 - **Vanilla CSS3** (CSS Variables, Flexbox, Grid) for formal, diocesan-inspired styling.
 - **Vanilla JavaScript** for mobile navigation and scroll animations.
 
+## Getting Started
+To view the website locally, simply download the files and double-click on `index.html` to open it in any modern web browser. No local server or build tools are required.
