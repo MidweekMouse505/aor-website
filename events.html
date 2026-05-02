@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Archdiocese of Roblox</title>
+    <meta name="description" content="Stay updated on all upcoming events, masses, and gatherings in the Archdiocese of Roblox.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="AOR Logo" class="logo-img">
+                <span class="logo-text">Archdiocese of Roblox</span>
+            </div>
+            <button id="mobile-menu-btn" class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="leadership.html">Leadership</a></li>
+                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="groups.html">Groups</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="fade-in">
+            <h1 class="section-title">Upcoming Events</h1>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--slate-gray);">Join us for our scheduled masses, meetings, and special ceremonies. All event times are posted in EST. Please join our Discord server for real-time updates and game links.</p>
+            
+            <div class="grid-2">
+                <div class="card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                        <h3 style="margin-bottom: 0;">Sunday Mass</h3>
+                        <span style="background-color: var(--light-gray); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.875rem; font-weight: 600; color: var(--cardinal-red);">Weekly</span>
+                    </div>
+                    <p style="color: var(--slate-gray); font-size: 0.9rem; margin-bottom: 1rem;"><i class="far fa-clock"></i> Sundays at 3:00 PM EST</p>
+                    <p style="margin-bottom: 1.5rem;">Our primary weekly gathering. Join us at the main Cathedral for Sunday Mass celebrated by the Archbishop or designated clergy.</p>
+                    <a href="#" class="btn-secondary" style="width: 100%;"><i class="fab fa-discord"></i> Get Game Link on Discord</a>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                        <h3 style="margin-bottom: 0;">Ordination Ceremony</h3>
+                        <span style="background-color: var(--gold-light); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.875rem; font-weight: 600; color: #8B6914;">Special Event</span>
+                    </div>
+                    <p style="color: var(--slate-gray); font-size: 0.9rem; margin-bottom: 1rem;"><i class="far fa-clock"></i> May 15, 2026 at 5:00 PM EST</p>
+                    <p style="margin-bottom: 1.5rem;">Witness the ordination of our newest priests and deacons. A formal ceremony requiring standard formal attire for all attendees.</p>
+                    <a href="#" class="btn-secondary" style="width: 100%;"><i class="fab fa-discord"></i> RSVP on Discord</a>
+                </div>
+
+                <div class="card">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+                        <h3 style="margin-bottom: 0;">Knights of Columbus Meeting</h3>
+                        <span style="background-color: var(--light-gray); padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.875rem; font-weight: 600; color: var(--slate-gray);">Group Event</span>
+                    </div>
+                    <p style="color: var(--slate-gray); font-size: 0.9rem; margin-bottom: 1rem;"><i class="far fa-clock"></i> First Saturday of the Month, 2:00 PM EST</p>
+                    <p style="margin-bottom: 1.5rem;">Monthly coordination meeting for all KOFC members. Prospective members are welcome to attend the public portion.</p>
+                    <a href="#" class="btn-secondary" style="width: 100%;"><i class="fab fa-discord"></i> View Details on Discord</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Archdiocese of Roblox</div>
+            <div class="footer-links">
+                <a href="#" target="_blank" aria-label="Discord"><i class="fab fa-discord fa-2x"></i></a>
+                <a href="#" target="_blank" aria-label="Roblox Group"><i class="fas fa-cube fa-2x"></i></a>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 Archdiocese of Roblox. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
