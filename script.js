@@ -1,7 +1,7 @@
 // script.js
 
 // --- PASSWORD PROTECTION ---
-const SITE_PASSWORD = "admin"; // You can change this password!
+const SITE_PASSWORD = "aor2026"; // You can change this password!
 
 if (sessionStorage.getItem('aor_authenticated') !== 'true') {
     // Stop scrolling
